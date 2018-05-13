@@ -121,8 +121,8 @@ def main():
                     # write the result on the image
                     writeResultOnImage(img, strClassification + ", " + "{0:.2f}".format(scoreAsAPercent) + "% confidence")
                     # finally we can show the OpenCV image
-                    # cv2.imshow(fileName, img)
-                    cv2.imwrite(RESULTS_DIR+ fileName,img)
+                    cv2.imshow(fileName, img)
+                    # cv2.imwrite(RESULTS_DIR+ fileName,img)
                     # mark that we've show the most likely prediction at this point so the additional information in
                     # this if statement does not show again for this image
                     onMostLikelyPrediction = False
