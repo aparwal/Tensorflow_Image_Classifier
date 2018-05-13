@@ -25,5 +25,11 @@ Put the custom dataset in data/train directory with image label as subdirectorie
 * OpenCV 2.x or 3.x
 * TensorFlow 1.8.0
 
-## Tensorboard graph
+## Description
+* ``` data_preprocess.py ```: Contains helper functions to read and process images
+* ``` model.py ```: Contains helper functions to create a tensorflow network
+* ``` results/ ```: Constains saved output of test.py
+* ``` models/ ```: Contains the saved model from train.py
+* ``` tboard/ ```: Contains tensorboard logs from taining and testing
+### Tensorboard graph
 ![Graph](tensorboard_images/graph_tensorboard.png)
