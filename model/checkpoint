@@ -1,0 +1,2 @@
+model_checkpoint_path: "bike_classifier"
+all_model_checkpoint_paths: "bike_classifier"
